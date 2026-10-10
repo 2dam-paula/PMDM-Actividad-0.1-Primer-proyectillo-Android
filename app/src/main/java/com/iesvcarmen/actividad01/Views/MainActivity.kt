@@ -1,10 +1,11 @@
-package com.iesvcarmen.actividad01
+package com.iesvcarmen.actividad01.Views
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.iesvcarmen.actividad01.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
