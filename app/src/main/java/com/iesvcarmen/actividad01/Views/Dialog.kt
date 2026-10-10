@@ -11,7 +11,7 @@ class Dialog {
     }
 
 
-    fun show(action: String, id: Int, nombre: String, apellido: String, telefono: String) {
+    fun show(action: String, id: Int, nombre: String, apellido: String, telefono: Int) {
         Log.d("---SALIDA---", "Diálogo abierto para la acción: $action con ID: $id")
         when (action) {
             "INSERT" -> {

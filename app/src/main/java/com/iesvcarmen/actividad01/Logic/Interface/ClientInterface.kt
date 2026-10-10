@@ -1,4 +1,7 @@
 package com.iesvcarmen.actividad01.Logic.Interface
 
-class ClientInterface {
+interface ClientInterface {
+    fun clientAdd(id: Int, nombre: String, apellido: String, telefono: Int)
+    fun clientDel(id: Int)
+    fun clientUpdate(id: Int, nombre: String, apellido: String, telefono: Int)
 }
